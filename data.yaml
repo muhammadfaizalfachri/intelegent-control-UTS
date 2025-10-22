@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Koin', 'Meteran', 'Penghapus', 'Penjepit']
+
+roboflow:
+  workspace: kontrol-cerdas
+  project: my-first-project-fx44v
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/kontrol-cerdas/my-first-project-fx44v/2
